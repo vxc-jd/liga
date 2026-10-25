@@ -1,0 +1,129 @@
+/* ==========================================
+   FUT LEGENDS - ESTILOS OFICIALES
+   ========================================== */
+
+/* Importar fuente deportiva y moderna desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
+/* Reset de márgenes y estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #0d0f12; /* Fondo oscuro premium */
+    color: #e0e0e0;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto; /* Centrar el contenido en pantallas grandes */
+}
+
+/* Encabezados */
+h1#Titulo {
+    color: #ffd700; /* Dorado Champions */
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+h1#Titulo strong {
+    color: #ffffff;
+}
+
+h2 {
+    color: #ff4d4d; /* Rojo fuego / energía */
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* Imagen principal con marco brillante */
+.Liga-img {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto 30px auto;
+    border-radius: 12px;
+    border: 2px solid #ffd700;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.25);
+}
+
+/* Parrafos de descripción */
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #cccccc;
+    text-align: justify;
+}
+
+p em {
+    color: #ffd700;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Sección Requisitos */
+h3 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+/* Requisitos destacados */
+p:has(🥇), p:has(⚡), p:has(🔥) {
+    background: #161a22;
+    padding: 12px 16px;
+    border-left: 4px solid #ffd700;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Botón de WhatsApp */
+a[href*="whatsapp"] {
+    display: inline-block;
+    background-color: #25d366; /* Verde WhatsApp */
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+}
+
+a[href*="whatsapp"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+    background-color: #20ba5a;
+}
+
+/* Pie de página */
+body > p:last-child {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #777777;
+    margin-top: 40px;
+    border-top: 1px solid #222222;
+    padding-top: 15px;
+}
+
+body > p:last-child strong {
+    color: #aaaaaa;
+}
